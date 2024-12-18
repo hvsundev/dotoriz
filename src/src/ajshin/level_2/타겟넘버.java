@@ -1,6 +1,4 @@
-ㅓㅁpublic class Lessons_43165 {
-
-
+public class Lessons_43165 {
   int answer = 0;
 
   public void dfs(int[] numbers, int target, int index, int sum) {
@@ -16,7 +14,6 @@
     dfs(numbers, target, index+1, plusSum);
     dfs(numbers, target, index+1, minusSum);
   }
-
 
   public int solution(int[] numbers, int target) {
     answer=0;
