@@ -1,6 +1,6 @@
 import java.util.*;
 
-class Solution {
+class 달리기경주 {
     public String[] solution(String[] players, String[] callings) {
       HashMap<String, Integer> map = new HashMap<>();
       for (int i = 0; i < players.length; i++) {
