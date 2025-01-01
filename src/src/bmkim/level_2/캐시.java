@@ -1,4 +1,7 @@
-static class Solution {
+import java.util.Iterator;
+import java.util.LinkedHashSet;
+
+public class 캐시 {
     static final int CACHE_HIT = 1;
     static final int CACHE_MISS = 5;
     public int solution(int cacheSize, String[] cities) {
