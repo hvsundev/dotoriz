@@ -1,4 +1,4 @@
-public class Lessons_43165 {
+public class 타겟넘버  {
   int answer = 0;
 
   public void dfs(int[] numbers, int target, int index, int sum) {
@@ -22,7 +22,7 @@ public class Lessons_43165 {
   }
 
   public static void main(String[] args) {
-    Lessons_43165 main = new Lessons_43165();
+    타겟넘버 main = new 타겟넘버();
     System.out.println(main.solution(new int[]{1, 1, 1, 1, 1}, 3));
   }
 }
