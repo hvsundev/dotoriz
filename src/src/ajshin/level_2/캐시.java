@@ -1,6 +1,6 @@
 import java.util.*;
 
-class Solution {
+class 캐시 {
     public int solution(int cacheSize, String[] cities) {
       int answer = 0;
       LinkedList<String> cache = new LinkedList<>();

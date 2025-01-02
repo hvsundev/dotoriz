@@ -1,7 +1,7 @@
 import java.util.HashMap;
 import java.util.Objects;
 
-public class Lessons_172928 {
+public class 공원산책 {
 
   public int[] solution(String[] park, String[] routes) {
 
@@ -72,10 +72,11 @@ public class Lessons_172928 {
         return directionKey.indexOf(directionKey);
       }
     }
+    return -1;
   }
 
   public static void main(String[] args) {
-    Lessons_172928 main = new Lessons_172928();
+    공원산책 main = new 공원산책();
     String[] park = {"SOO", "OXX", "OOO"};
     String[] routes = {"E 2", "S 2", "W 1"};
     System.out.println(main.solution(park, routes));
