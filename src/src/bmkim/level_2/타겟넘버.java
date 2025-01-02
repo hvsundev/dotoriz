@@ -1,4 +1,4 @@
-public class prg43165 {
+public class 타겟넘버 {
     static int answer = 0;
     public static int solution(int[] numbers, int target) {
         DFS(numbers, target, 0, 0);
