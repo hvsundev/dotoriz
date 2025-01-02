@@ -1,6 +1,4 @@
 public class 타켓넘버 {
-
-
   int answer = 0;
 
   public void dfs(int[] numbers, int target, int index, int sum) {
