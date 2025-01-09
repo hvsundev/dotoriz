@@ -1,4 +1,5 @@
 // 1트
+// [1, 2, 3, 9, 10, 12], 7
 function solution(scoville, K) {
     const heap = scoville.sort((a, b) => a - b)
   

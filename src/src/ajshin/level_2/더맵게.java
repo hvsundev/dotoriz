@@ -12,7 +12,7 @@ public class 더맵게 {
     Integer min = heap.peek();
     while (min < K) {
       if (heap.size() >= 2) {
-        heap.add(min + (heap.poll() * 2));
+        heap.add(heap.poll() + (heap.poll() * 2));
         min = heap.peek();
         answer++;
       }
