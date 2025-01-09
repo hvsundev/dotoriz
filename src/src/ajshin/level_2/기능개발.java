@@ -3,8 +3,6 @@ import java.util.List;
 import java.util.Queue;
 
 public class 기능개발 {
-
-
   public List<Integer> solution(int[] progresses, int[] speeds) {
 
     Queue<Integer> progressesQueue = new LinkedList<>();

@@ -17,7 +17,7 @@ function solution(progresses, speeds) {
       }
   
       if (progresses[0] >= 100) {
-        const count  = getCompletedTaskCount()
+        const count  = getCompletedTaskCount() // 
         answer.push(count ? count : 1)
       }
     }
